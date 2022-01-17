@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.left {
+  height: 100%;
+  width: 40%;
+  background-color: darkseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left > img {
+  height: inherit;
+  width: 100%;
+}
+.left-logo-box {
+  height: 200px;
+  width: 200px;
+}
+.left-logo-box > img {
+  height: 200px;
+  width: 200px;
+}
+.right {
+  height: 100%;
+  width: 60%;
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/public/Texture.jpeg);
+}
+.right-input-box {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.error-para {
+  margin: 0px;
+  color: red;
+  align-self: flex-start;
+  margin-left: 25px;
+}
+.email-input {
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 18px;
+}
+.pwd-input {
+  height: 40px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 18px;
+}
+.login-btn {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: skyblue;
+}
+.signin-para {
+  font-size: 30px;
+  margin: 2px;
+  font-family: cursive;
+  color: purple;
+  font-style: italic;
+}
+.logo-img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  border-radius: 10px;
+}

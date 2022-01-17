@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.gl-wrapper {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/public/Texture.jpeg);
+}
+.gl-top {
+  height: 60px;
+  width: 90%;
+}
+.search {
+  height: 40px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.sort-btn {
+  height: 40px;
+  width: 170px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.gl-info {
+  height: 100px;
+  width: 400px;
+  background-color: aquamarine;
+  border: 1px solid green;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 10px;
+}
+.gl-info-para {
+  margin: 1px;
+  font-size: 15px;
+}
+.table {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.th {
+  border: 1px solid black;
+  height: 30px;
+  width: 250px;
+  border-collapse: collapse;
+}
+.tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
